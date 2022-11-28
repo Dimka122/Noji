@@ -10,7 +10,7 @@ namespace Nojiki.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
 
-           optionsBuilder.UseSqlServer("Data Source=sql5107.site4now.net;Password=********;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+           optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Database=UniCarts;Integrated Security=True;");
         }
 
     }
