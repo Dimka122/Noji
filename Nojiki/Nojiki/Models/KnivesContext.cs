@@ -9,7 +9,7 @@ namespace Nojiki.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=sql5107.site4now.net;User ID=db_a8eeb3_bekoxef498_admin;Password=********;");
+            optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Catalog=Kniv;Integrated Security=True;");
         }
 
     }
