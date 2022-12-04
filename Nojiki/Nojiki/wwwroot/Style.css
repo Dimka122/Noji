@@ -1,0 +1,15 @@
+﻿#container {
+    background-color: bisque;
+    border-width: 1px;
+    border-color: black;
+    border-style: groove;
+}
+
+.cart {
+    background-color: rgb(225, 131, 15);
+    border-width: 1px;
+    border-color: rgb(211, 19, 19);
+    border-style: ridge;
+    width: 140px;
+    margin: 10px;
+}
